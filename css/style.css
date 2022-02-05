@@ -1,0 +1,178 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,400;1,700&display=swap");
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/PlayfairDisplay-Regular.woff2") format(".woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format(".woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/PlayfairDisplay-Italic.woff2") format(".woff2"), url("../fonts/PlayfairDisplay-Italic.woff") format(".woff");
+	font-style: italic;
+	font-weight: 400;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/PlayfairDisplay-ExtraBold.woff2") format(".woff2"), url("../fonts/PlayfairDisplay-ExtraBold.woff") format(".woff");
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+}
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/PlayfairDisplay-ExtraBoldItalic.woff2") format(".woff2"), url("../fonts/PlayfairDisplay-ExtraBoldItalic.woff") format(".woff");
+	font-style: italic;
+	font-weight: 800;
+	font-display: swap;
+}
+#census {
+	font-family: "PlayfairDisplay";
+	font-weight: 800;
+	font-style: italic;
+	color: coral;
+}
+body {
+	font-size: 16px;
+	color: gray;
+	font-family: fantasy;
+}
+#heyday {
+	font-family: "PlayfairDisplay", "sans-serif";
+	font-size: 14px;
+	font-weight: 800;
+}
+#origin {
+	font-family: "Lato", "sans-serif";
+	font-weight: 900;
+	text-decoration: line-through;
+}
+a {
+	text-transform: uppercase;
+	color: blue;
+	font-size: 40px;
+	text-shadow: -10px 5px 10px rgb(211, 10, 10);
+}
+h1 {
+	font-family: "Roboto", "sans-serif";
+	font-weight: 900;
+	font-size: 25px;
+	color: black;
+}
+h2 {
+	font-family: "Roboto", "sans-serif";
+	font-weight: 700;
+	font-size: 20px;
+	color: mediumorchid;
+}
+.italic {
+	font-family: "Roboto", "sans-serif";
+	font-style: italic;
+	font-weight: 700;
+}
+ol {
+	font-family: "Roboto", "sans-serif";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 17px;
+}
+ul {
+	font-family: "Roboto", "sans-serif";
+	font-style: italic;
+	font-weight: 300;
+	font-size: 15px;
+	color: green;
+}
+ol > li > a {
+	font-family: "Roboto", "sans-serif";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 17px;
+	color: red;
+}
+a.footer {
+	color: darkred;
+	font-family: "Roboto", "sans-serif";
+	font-weight: 700;
+	font-size: 55px;
+	text-align: center;
+	text-shadow: 10px -10px 10px #000;
+}
+a.census {
+	color: coral;
+}
+#Europe {
+	text-align: right;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+span.bold {
+	font-family: "PlayfairDisplay", "sans-serif";
+	font-size: 50px;
+	font-weight: 800;
+	color: yellow;
+	text-transform: capitalize;
+}
+span {
+	font-family: "Roboto", "sans-serif";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: italic;
+	color: saddlebrown;
+	text-transform: lowercase;
+	text-decoration: overline;
+}
+p.teacher {
+	text-indent: 40px;
+	letter-spacing: 5px;
+	word-spacing: 20px;
+	white-space: nowrap;
+	line-height: 40px;
+}
+.header {
+	font-size: 12px;
+	color: darkblue;
+	text-align: center;
+}
+.start {
+	text-align: center;
+}
+
+div.text-market {
+	font-family: "Lato", "sans-serif";
+	color: #424551;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+h1.market {
+	font-family: "Lato", "sans-serif";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	color: #1e212c;
+	line-height: 1.3;
+}
+
+.text-market.bold {
+	font-family: "Lato", "sans-serif";
+	font-weight: 700;
+	font-size: 20px;
+	font-style: normal;
+	color: #1e212c;
+	line-height: 1.5;
+}
+
+.list-market {
+	font-family: "Lato", "sans-serif";
+	color: #424551;
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
+}
